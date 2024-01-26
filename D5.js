@@ -18,9 +18,7 @@ console.log(pets);
 */
 
 const order = pets.sort();
-for (let i = 0; i < order.length; i++) {
-  document.write(order[i]);
-}
+
 console.log(order);
 
 /* ESERCIZIO 3
@@ -28,9 +26,7 @@ console.log(order);
 */
 
 const reverse = pets.reverse();
-for (let i = 0; i < reverse.lenght; i++) {
-  document.write(reverse[i]);
-}
+
 console.log(reverse);
 
 /* ESERCIZIO 4
