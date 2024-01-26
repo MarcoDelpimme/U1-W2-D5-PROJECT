@@ -130,15 +130,36 @@ while (numericArray[i] !== 32) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
+
+// const alphabet = "abcdefghijklmnopqrstuvwxyz";
+
+// const positionsArray = [];
+
+// for (let i = 0; i < charactersArray.length; i++) {
+//   const char = charactersArray[i];
+//   const position = alphabet.indexOf(char) + 1;
+//   positionsArray.push(position);
+// }
+
+// console.log(positionsArray);
+
 const charactersArray = ["g", "n", "u", "z", "d"];
-const alphabet = "abcdefghijklmnopqrstuvwxyz";
+const myArray = [];
 
-const positionsArray = [];
-
-for (let i = 0; i < charactersArray.length; i++) {
-  const char = charactersArray[i];
-  const position = alphabet.indexOf(char) + 1; // Aggiungi 1 perché le posizioni partono da 1
-  positionsArray.push(position);
+//charCodeAt (0) significa prendere iol primo carattere della stringa
+//supponendo una condizione in cui io mio if indichi il parametro una stringa
+// deve ritornarmi una funzione in cui charcode prende il primo carattere e ne sottrare il 96  ottenendo il numero corrispondente
+function NumeroAlfabeto(a) {
+  if (typeof a === "string") {
+    return a.toLowerCase().charCodeAt(0) - 96;
+  }
 }
 
-console.log(positionsArray);
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case charactersArray[i]:
+      myArray.push(NumeroAlfabeto(charactersArray[i]));
+      break;
+  }
+}
+console.log("XMP", myArray);
