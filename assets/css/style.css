@@ -1,0 +1,144 @@
+/* Your styles here */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.container-logo {
+  background-color: #222f3f;
+  padding: 10px;
+  padding-left: 25px;
+  padding-bottom: 6px;
+}
+
+.logo {
+  width: 10%;
+  padding: 18px;
+}
+/*header END*/
+.menu {
+  background-color: #364757;
+  padding: 5px;
+  font-size: 13px;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  padding-left: 20px;
+  padding-block: 6px;
+  font-size: 18px;
+}
+
+/*MENU END*/
+
+.gift-cards {
+  padding-inline: 25px;
+  padding-block: 25px;
+}
+
+.contain-giftc {
+  text-align: center;
+  background-color: #f56600;
+  font-size: 17px;
+  padding-block: 7px;
+  color: white;
+}
+
+h1 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.container1 {
+  background-image: url(/assets/images/bg-image.png);
+  padding: 80px;
+  color: white;
+  text-align: center;
+  padding-bottom: 36px;
+  margin: 25px;
+  background-size: contain;
+  margin-top: 0;
+}
+
+p {
+  padding-top: 25px;
+}
+
+.perfect-gift {
+  font-size: 17px;
+  text-align: start;
+  padding-left: 22px;
+  font-weight: 600;
+}
+
+.container-img {
+  margin: 25px;
+  text-align: center;
+  background-color: white;
+  padding-block: 80px;
+  font-size: 0;
+  white-space: nowrap;
+  padding-top: 30px;
+}
+
+.photo {
+  display: inline-block;
+  width: 20%;
+  height: 460px;
+  box-sizing: border-box;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px #80808029;
+}
+
+.container-img1 {
+  margin: 25px;
+}
+.photo9-10 {
+  width: 100%;
+  object-fit: cover;
+}
+.underline {
+  text-align: center;
+}
+
+.container-img2 {
+  margin: 25px;
+}
+
+.container-img3 {
+  margin: 25px;
+}
+
+.linkshop {
+  font-size: 15px;
+  color: #026578;
+  text-decoration: none;
+  font-weight: 800;
+  font-style: bold;
+}
+
+/*footer*/
+
+.gotop {
+  background-color: #364759;
+  text-align: center;
+  padding: 15px;
+}
+
+.footerlogo {
+  text-align: center;
+  background-color: #222f3f;
+}
+
+.logo-footer1 {
+  padding-block: 25px;
+  width: 7rem;
+}
